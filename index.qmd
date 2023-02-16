@@ -24,9 +24,9 @@ You can add options to executable code like this
 
 ```{r}
 ggplot(data = storms, mapping = aes(x = pressure, y = wind)) +
-  geom_point(color = 'blue',
-             alpha = 0.4, shape = 16) +
-  geom_smooth(method = 'loess', color = 'blue', se = FALSE)
+  geom_point(color = 'purple',
+             alpha = 0.3, shape = 16) +
+  geom_smooth(method = 'loess', color = 'purple', se = FALSE)
 
       
        
